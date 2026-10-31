@@ -32,7 +32,13 @@ data class DesignElement(
 )
 
 enum class ElementType {
-    CABINET_UPPER, CABINET_LOWER, APPLIANCE, DECOR, LIGHTING, COUNTERTOP, BACKSPLASH
+    CABINET_UPPER,
+    CABINET_LOWER,
+    APPLIANCE,
+    DECOR,
+    LIGHTING,
+    COUNTERTOP,
+    BACKSPLASH
 }
 
 data class Material(
@@ -45,7 +51,12 @@ data class Material(
 )
 
 enum class MaterialCategory {
-    WOOD, STONE, METAL, GLASS, PAINT, FABRIC
+    WOOD,
+    STONE,
+    METAL,
+    GLASS,
+    PAINT,
+    FABRIC
 }
 
 data class KitchenProject(
@@ -145,4 +156,11 @@ object MaterialLibrary {
         Material("marble_black", "رخام أسود", "Black Marble", 0xFF2C2C2C, MaterialCategory.STONE),
         Material("marble_gray", "رخام رمادي", "Gray Marble", 0xFF8A8A8A, MaterialCategory.STONE),
         Material("granite_dark", "جرانيت داكن", "Dark Granite", 0xFF3D3D3D, MaterialCategory.STONE),
-        Material("metal_steel", "ستانلس ستيل", "Stainless Steel", 0xFFC0C0C0, MaterialCategory.MET
+        Material("metal_steel", "ستانلس ستيل", "Stainless Steel", 0xFFC0C0C0, MaterialCategory.METAL),
+        Material("metal_black", "معدن أسود", "Black Metal", 0xFF1A1A1A, MaterialCategory.METAL),
+        Material("glass_clear", "زجاج شفاف", "Clear Glass", 0x80FFFFFF, MaterialCategory.GLASS),
+        Material("paint_white", "أبيض", "White Paint", 0xFFFFFFFF, MaterialCategory.PAINT),
+        Material("paint_gray", "رمادي", "Gray Paint", 0xFF9E9E9E, MaterialCategory.PAINT),
+        Material("paint_navy", "كحلي", "Navy", 0xFF1A237E, MaterialCategory.PAINT)
+    )
+}
