@@ -67,7 +67,7 @@ data class KitchenProject(
 
 @Entity(tableName = "projects")
 data class ProjectEntity(
-    @PrimaryKey val id: String,
+val backgroundImagePath: String? = null,
     val name: String,
     val backgroundImagePath: String?,
     val createdAt: Long,
