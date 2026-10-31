@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">KitchenVision Pro</string>
+    <string name="home_title">تصميم المطابخ</string>
+    <string name="new_design">تصميم جديد</string>
+    <string name="my_projects">مشاريعي</string>
+    <string name="library">المكتبة</string>
+    <string name="materials">المواد</string>
+    <string name="export">تصدير</string>
+    <string name="perspective_tool">خطوط المنظور</string>
+    <string name="add_element">إضافة عنصر</string>
+    <string name="save_project">حفظ المشروع</string>
+    <string name="share">مشاركة</string>
+    <string name="select_photo">اختر صورة الغرفة</string>
+    <string name="take_photo">التقاط صورة</string>
+    <string name="cabinets">خزائن</string>
+    <string name="appliances">أجهزة</string>
+    <string name="decor">ديكور</string>
+    <string name="lighting">إضاءة</string>
+</resources>
